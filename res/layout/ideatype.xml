@@ -3,35 +3,36 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-    android:id="@+id/">
-
+                android:background="@color/white">
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/ideablank"
-        android:layout_marginTop="172dp"
-        android:text="Enter your idea here..."
-        android:layout_toStartOf="@+id/searchbutton"
-        android:layout_alignParentTop="true" />
+        android:text="@string/idea"
+        android:inputType="text"
+        android:layout_marginTop="113dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="     Search    "
+        android:text="    Search    "
         android:id="@+id/searchbutton"
-        android:layout_toEndOf="@+id/ideablank"
         android:background="@color/green"
         android:textStyle="bold"
-        android:layout_alignBottom="@+id/ideablank"
-        android:layout_marginLeft="44dp" />
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editText2"
-        android:layout_centerVertical="true"
-        android:layout_alignStart="@+id/ideablank"
-        android:text="Projected profit %" />
+        android:id="@+id/profitcent"
+        android:text="@string/profit"
+        android:inputType="number|numberDecimal"
+        android:layout_below="@+id/ideablank"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp" />
 
 </RelativeLayout>
