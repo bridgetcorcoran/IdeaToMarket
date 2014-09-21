@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">IdeaToMarket</string>
-    <string name="about">blabla</string>
+    <string name="about">This app was written to assist possible entrepreneurs in finding a possible and workable niche in the economy.
+     The process starts with searching your initial idea, such as 'ridesharing' or 'cloud storage'.
+     The app will then look at other companies invested in this idea and give you the insight to decide if the market is enterable or not.
+    </string>
+    <string name="contact"> This app is courtesy of:
+    Bridget Corcoran
+    becorc01@vt.edu
+    Aarathi Raghuraman
+    aarathiraghuraman@gmail.com</string>
     <color name="white">#FFFFFF</color>
     <color name="green">#99ff00</color>
     <color name="black">#000000</color>

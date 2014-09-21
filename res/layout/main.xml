@@ -22,21 +22,25 @@
             android:textColor="@color/purple"
             android:paddingLeft="30dp"
             android:paddingRight="30dp"
-            android:id="@+id/buttonAbout" android:layout_gravity="center_horizontal"/>
+            android:id="@+id/buttonAbout" android:layout_gravity="center_horizontal"
+        android:onClick="about"
+        android:textStyle="bold" />
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/buttonAbout"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:textSize="25dp"
+            android:textSize="25sp"
             android:background="@color/green"
             android:textColor="@color/purple"
             android:layout_margin="25dp"
             android:paddingLeft="30dp"
             android:paddingRight="30dp"
-            android:text="IDEA"
-            android:id="@+id/buttonIdea" android:layout_gravity="center_horizontal"/>
+            android:text="Idea"
+            android:id="@+id/buttonIdea" android:layout_gravity="center_horizontal"
+        android:onClick="idea"
+        android:textStyle="bold" />
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -48,6 +52,7 @@
             android:paddingRight="10dp"
             android:layout_below="@id/buttonIdea"
             android:text="Contact Us"
-            android:id="@+id/buttonContact" android:layout_gravity="center_horizontal"/>
+            android:id="@+id/buttonContact" android:layout_gravity="center_horizontal"
+        android:textStyle="bold" />
 </RelativeLayout>
 
